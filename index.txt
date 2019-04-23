@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:version='2' class='v2' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'> <head> <meta content='IE=EmulateIE7' http-equiv='X-UA-Compatible'/> <b:if cond='data:blog.isMobile'> <meta content='width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0' name='viewport'/> <b:else/> <meta content='width=1100' name='viewport'/> </b:if> <b:include data='blog' name='all-head-content'/> <title><data:blog.pageTitle/></title> <meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'/>
+<script type='text/javascript'>
+var block = [&#39;addmefast.com&#39;, &#39;alexaboostup.com&#39;, &#39;hitleap.com&#39;,&#39;siteweb.com&#39;,&#39;browsershots.org&#39;];
+for (var b = block.length; b--;) {
+if (document.referrer.match(block[b]))
+window.location = &quot;https://www.google.com/&quot;;
+}
+</script>
+
+<!-- [ Meta Tag SEO ] -->
+<include expiration='7d' path='*.css'/>
+<include expiration='7d' path='*.js'/>
+<include expiration='3d' path='*.gif'/>
+<include expiration='3d' path='*.jpeg'/>
+<include expiration='3d' path='*.jpg'/>
+<include expiration='3d' path='*.png'/>
+<meta content='sat, 02 jun 2020 00:00:00 GMT' http-equiv='expires'/>
+<meta charset='utf-8'/>
+<meta content='width=device-width, initial-scale=1' name='viewport'/>
+<meta content='blogger' name='generator'/>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+<link href='http://www.blogger.com/openid-server.g' rel='openid.server'/>
+<link expr:href='data:blog.homepageUrl' rel='openid.delegate'/>
+<link expr:href='data:blog.url' rel='canonical'/>
+<b:if cond='data:blog.pageType == &quot;index&quot;'>
+<title><data:blog.pageTitle/></title>
+<b:else/>
+<b:if cond='data:blog.pageType != &quot;error_page&quot;'>
+<title><data:blog.pageName/> - <data:blog.title/></title>
+</b:if></b:if>
+<b:if cond='data:blog.pageType == &quot;error_page&quot;'>
+<title>«·’›Õ… €Ì— „ÊÃÊœ… - <data:blog.title/></title>
+</b:if>
+<b:if cond='data:blog.pageType == &quot;archive&quot;'>
+<meta content='noindex' name='robots'/>
+</b:if>
+<b:if cond='data:blog.searchLabel'>
+<meta content='noindex,nofollow' name='robots'/>
+</b:if>
+<b:if cond='data:blog.isMobile'>
+<meta content='noindex,nofollow' name='robots'/>
+</b:if>
+<b:if cond='data:blog.pageType != &quot;error_page&quot;'>
+<meta expr:content='data:blog.metaDescription' name='description'/>
+<script type='application/ld+json'>{ &quot;@context&quot;: &quot;http://schema.org&quot;, &quot;@type&quot;: &quot;WebSite&quot;, &quot;url&quot;: &quot;<data:blog.homepageUrl/>&quot;, &quot;potentialAction&quot;: { &quot;@type&quot;: &quot;SearchAction&quot;, &quot;target&quot;: &quot;<data:blog.homepageUrl/>?q={search_term}&quot;, &quot;query-input&quot;: &quot;required name=search_term&quot; } }</script>
+<b:if cond='data:blog.homepageUrl != data:blog.url'>
+<meta expr:content='data:blog.pageName + &quot;, &quot; + data:blog.pageTitle + &quot;, &quot; + data:blog.title' name='keywords'/>
+</b:if></b:if>
+<b:if cond='data:blog.url == data:blog.homepageUrl'>
+<meta content=' ' name='keywords'/></b:if>
+<link expr:href='data:blog.homepageUrl + &quot;feeds/posts/default&quot;' expr:title='data:blog.title + &quot; - Atom&quot;' rel='alternate' type='application/atom+xml'/>
+<link expr:href='data:blog.homepageUrl + &quot;feeds/posts/default?alt=rss&quot;' expr:title='data:blog.title + &quot; - RSS&quot;' rel='alternate' type='application/rss+xml'/>
+<link expr:href='&quot;http://www.blogger.com/feeds/&quot; + data:blog.blogId + &quot;/posts/default&quot;' expr:title='data:blog.title + &quot; - Atom&quot;' rel='alternate' type='application/atom+xml'/>
+<b:if cond='data:blog.pageType == &quot;item&quot;'>
+<b:if cond='data:blog.postImageThumbnailUrl'>
+<link expr:href='data:blog.postImageThumbnailUrl' rel='image_src'/>
+</b:if></b:if>
+<link expr:href='data:blog.url' hreflang='x-default' rel='alternate'/>
+<link href='/favicon.ico' rel='icon' type='image/x-icon'/>
+<link href='https://plus.google.com//posts' rel='publisher'/>
+<link href='https://plus.google.com//about' rel='author'/>
+<link href='https://plus.google.com/' rel='me'/>
+<meta content='»·œﬂ' name='geo.placename'/>
+<meta content='«”„ﬂ' name='Author'/>
+<meta content='general' name='rating'/>
+<meta content='«·Õ—›Ì‰ «·«Ê·Ì‰ „‰ »·œﬂ' name='geo.country'/>
+<!-- [ Social Media Meta Tag ] -->
+<b:if cond='data:blog.pageType == &quot;item&quot;'>
+<meta expr:content='data:blog.pageName' property='og:title'/>
+<meta expr:content='data:blog.canonicalUrl' property='og:url'/>
+<meta content='article' property='og:type'/>
+</b:if>
+<meta expr:content='data:blog.title' property='og:site_name'/>
+<b:if cond='data:blog.url == data:blog.homepageUrl'>
+<meta expr:content='data:blog.metaDescription' name='description'/>
+<meta expr:content='data:blog.title' property='og:title'/>
+<meta content='website' property='og:type'/>
+<b:if cond='data:blog.metaDescription'>
+<meta expr:content='data:blog.metaDescription' property='og:description'/>
+<b:else/>
+<meta expr:content='&quot;Ì—ÃÏ “Ì«—… &quot; + data:blog.pageTitle + &quot; · ” ›Ìœ „‰ «·œ—Ê” Ê «· œÊÌ‰« .&quot;' property='og:description'/>
+</b:if>
+</b:if>
+<b:if cond='data:blog.postImageUrl'>
+<meta expr:content='data:blog.postImageUrl' property='og:image'/>
+<b:else/>
+<b:if cond='data:blog.postImageThumbnailUrl'>
+<meta expr:content='data:blog.postThumbnailUrl' property='og:image'/>
+<b:else/>
+<meta content='‘⁄«— «·„Êﬁ⁄' property='og:image'/>
+</b:if>
+</b:if>
+<meta content='https://www.facebook.com/' property='article:author'/>
+<meta content='https://www.facebook.com/' property='article:publisher'/>
+<meta content='id' property='fb:app_id'/>
+<meta content='id' property='fb:admins'/>
+<meta content='ar_AR' property='og:locale'/>
+<meta content='ar_AR' property='og:locale:alternate'/>
+<meta content='id_ID' property='og:locale:alternate'/>
+<meta content='summary' name='twitter:card'/>
+<meta expr:content='data:blog.pageTitle' name='twitter:title'/>
+<meta content='https://twitter.com/' name='twitter:site'/>
+<meta content='https://twitter.com/' name='twitter:creator'/>
+<meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'/>
+<link href='https://daneden.github.io/animate.css/animate.min.css' rel='stylesheet'/>
+<meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'/>
+<link href='//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css' rel='stylesheet'/>
+<b:skin><![CDATA[/*
+/* Css Reset
+------------------------------ */
+/* Non essential CSS - Just for example centering */
+@import url("https://cdn.rawgit.com/abdelalilebbihi/techabdou/fe375e69/abdou-neo.css");
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit;transition:all 0.5s ease-in-out}*,body{font-family:'neo';font-size:18px}body,h1,h2,h3,h4,p{margin:0;padding:0}#YTplayer{width:100%;height:100%;position:absolute;top:0;z-index:-1}.cover-video-wrapper{background:linear-gradient(270deg,rgb(82,183,132) 0%,#444 100%);position:relative}.content-wrapper{width:600px;margin:0 auto}.title-cont{display:inline-block;margin:60px 0;width:100%;text-align:center}.header-title{font-size:42px;font-weight:300;color:#fff}.sec-header-desc{font-size:18px;font-weight:400;color:rgba(255,255,255,0.5)}label{font-weight:400;color:rgba(255,255,255,0.8);margin-bottom:10px;display:block;text-align:center}.text-input{width:100%;border-radius:4px;border:none;padding:20px;font-size:18px;color:#460707;outline:none;box-shadow:0 1px 2px 1px rgba(0,0,0,0.17),0 1px 2px 0 rgba(0,0,0,0.23)}button.btn-1{width:100%;height:50px;margin:9px auto;border:none;border-radius:2px;border-radius:4px;border:none;padding:20px;font-size:18px;background:#52b784;color:#fff;outline:none;box-shadow:0 1px 2px 1px rgba(0,0,0,0.17),0 1px 2px 0 rgba(0,0,0,0.23)}button.btn-1:hover{background:#fff;color:#52b784;border:2px solid #52b784}hr{border:none;border-bottom:1px solid rgba(255,255,255,0.2);margin:30px 0}#input-header,#input-sec-header{margin-bottom:30px}.buttons-wrapper{margin:30px 0;overflow:hidden;display:none}.habibi-button{width:46%;font-size:18px;padding:20px;border-radius:4px;cursor:pointer;outline:none;text-decoration:none;text-align:center}#preview-button{float:left;border:1px solid rgba(140,0,0,0.2);background:white;color:#A30D00}#preview-button:hover{border:1px solid rgba(140,0,0,0.6)}#preview-button:active{background:rgb(140,0,0);background:rgb(140,0,0);color:white}#download-button{float:right;border:none;background:rgb(180,0,0);border-radius:4px;color:white}#download-button:hover{background:rgb(160,0,0)}#download-button:active{background:rgb(140,0,0)}footer{text-align:center;font-size:12px;margin:100px 0 20px 0}footer a{text-decoration:none;color:#52b784}footer a:hover{text-decoration:underline}.fa-heartbeat:before{content:"\f21e"}.heart{position:relative;width:15px;overflow:inherit;display:inline-block;-webkit-animation:animateHeart 2.5s infinite;animation:animateHeart 2.5s infinite;top:-9px}.heart:after,.heart:before{position:absolute;content:'';top:0;left:7px;width:7px;height:10px;background:#d34937;border-radius:50px 50px 0 0;-webkit-transform:rotate(-45deg) translateZ(0);transform:rotate(-45deg) translateZ(0);-webkit-transform-origin:0 100%;transform-origin:0 100%}.heart:after{left:0;-webkit-transform:rotate(45deg) translateZ(0);transform:rotate(45deg) translateZ(0);-webkit-transform-origin:100% 100%;transform-origin:100% 100%}@-webkit-keyframes animateHeart{0%,100%,50%{-webkit-transform:scale(1)}5%{-webkit-transform:scale(1.2)}10%{-webkit-transform:scale(1.1)}15%{-webkit-transform:scale(1.3)}}@keyframes animateHeart{0%,100%,50%{-webkit-transform:scale(1);transform:scale(1)}5%{-webkit-transform:scale(1.2);transform:scale(1.2)}10%{-webkit-transform:scale(1.1);transform:scale(1.1)}15%{-webkit-transform:scale(1.3);transform:scale(1.3)}}.glyphicon-heart:before{content:"\e005"}.fa-heart-o:before{content:"\f08a"}.glyphicon-heart-empty:before{content:"\e143"}.fa-heart:before{content:"\f004"}@media screen and (max-width:640px){.content-wrapper{width:100%;padding:0 20px}.header-title{font-size:28px}.sec-header-desc,label,.habibi-button{font-size:16px}.text-input{padding:16px;font-size:16px}.habibi-button{padding:16px}}div#image img{width:300px!important;border:2px solid #52b784;box-shadow:0 1px 2px 1px rgba(0,0,0,0.17),0 1px 2px 0 rgba(0,0,0,0.23)}div#statistics{width:43%;float:left;margin:auto}div#image{width:50%;float:right;clear:both;margin:6px;padding:11px}div#snippet{width:43%;float:left;margin:auto}div#snippet p{font-size:16px}@media screen and (max-width:940px){div#image img{width:100%!important}div#image{width:100%!important}div#statistics{width:100%!important;float:none!important}div#snippet{width:100%!important;float:left;margin-top:11px!important}p#description{font-size:13px!important}}p#channelname{color:#52b784;font-size:19px!important}p#channelname:before{float:right;content:"\f05d";display:block;font-family:FontAwesome;font-style:normal;font-weight:400;color:#52b784;line-height:1.5;font-size:14px}div#snippet p#title{font-size:20px;margin:6px}p#description:before{margin:7px;float:right;font-family:FontAwesome;display:block;content:"\f129";font-weight:400;color:#52b784;line-height:1.5;font-size:14px}::-webkit-scrollbar{width:3px}::-webkit-scrollbar-track{-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,0.3);-webkit-border-radius:10px;border-radius:10px}::-webkit-scrollbar-thumb{-webkit-border-radius:10px;border-radius:10px;background:rgb(82,183,132);-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,0.5)}::-webkit-scrollbar-thumb:window-inactive{background:rgba(255,0,0,0.4)}p#description{font-size:11px!important;margin:5px;overflow:hidden;height:115px;overflow-y:scroll}div#snippet p#title:before{float:right;content:"\f10d";display:block;font-family:FontAwesome;font-style:normal;font-weight:400;color:#52b784;line-height:1.5;font-size:14px;margin-left:5px}div#statistics p{float:right;margin:10px;font-size:16px}p#likes:before{float:left;content:"\f164";display:block;font-family:FontAwesome;font-style:normal;font-weight:400;color:#52b784;line-height:1.5;font-size:14px}p#views:before{float:left;content:"\f06e";display:block;font-family:FontAwesome;font-style:normal;font-weight:400;color:#52b784;line-height:1.5;font-size:14px}p#dislikes:before{float:left;content:"\f165";display:block;font-family:FontAwesome;font-style:normal;font-weight:400;color:#52b784;line-height:1.5;font-size:14px}iframe#downloadVideo{float:left;margin:auto}iframe#downloadAudio{float:right;border-radius:21px;width:150px;height:67px;margin:58px}.download-wrapper{width:598px;margin:0 auto;clear:both}}
+]]></b:skin> 
+<link href='http://fonts.googleapis.com/earlyaccess/droidarabickufi.css' rel='stylesheet' type='text/css'/>
+<script src='//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js'/>
+</head>
+<body> 
+<div class='cover-video-wrapper'>
+<div class='content-wrapper'>
+<div class='title-cont'>
+<h1 class='header-title'>„ÕÊ· ›ÌœÌÊÂ« </h1>
+<h4 class='sec-header-desc'>Â–« «·‰’ ÂÊ „À«· ·‰’ Ì„ﬂ‰ √‰ Ì” »œ· ›Ì ‰›” «·„”«Õ…&#1548; ·ﬁœ  „  Ê·Ìœ Â–« «·‰’ „‰ „Ê·œ «·‰’ «·⁄—»Ï</h4>
+</div>
+<div class='inputs-cont'>
+<label for='input-url'>÷⁄ —«»ÿ «·›ÌœÌÊ Â‰«</label>
+<input class='text-input' id='input-url' placeholder='https://www.youtube.com/watch?v=RE3uGjzuq3w' required='' type='text'/>
+<hr/>
+<label for='input-header'>≈÷€ÿ ⁄·Ï «·“— «·«”›· · ÕÊÌ· «·›ÌœÌÊ</label>
+<button class='btn-1' onclick='getInfo()'><span>≈»œ«</span></button>
+</div>
+</div>
+<div id='YTplayer'/>
+</div>
+<div class='buttons-wrapper'>
+<div class='content-wrapper'>
+<div id='image'/>
+<div id='statistics'/>
+<div id='snippet'/>
+</div>
+<div class='download-wrapper'>
+<iframe allowfullscreen='true' frameborder='0' height='150' id='downloadAudio' sandbox='allow-forms allow-scripts' scrolling='no' src='about:blank' width='250'>
+</iframe>
+<iframe allowfullscreen='true' frameborder='0' height='500' id='downloadVideo' sandbox='allow-forms allow-scripts' scrolling='no' src='about:blank' width='250'>
+</iframe>
+</div>
+</div>
+<footer>
+<div class='content-wrapper'>
+<Script Language='Javascript'>
+<!-- HTML Encryption provided by www.abdoutech.com -->
+document.write(unescape(&#39;%3C%70%20%69%64%3D%27%64%6F%6E%74%65%64%69%74%27%2F%3E%0A&#39;));
+</Script><p>
+ Ã„Ì⁄ «·ÕﬁÊﬁ „Õ›ÊŸ… ·‹
+<a expr:href='data:blog.homepageUrl'><data:blog.title/></a>
+</p>
+</div>
+</footer>
+<script data-cfasync='false' src='//rawgit.com/abdelalilebbihi/abdou_tech/master/convetvideo/script.js' type='text/javascript'/>
+<b:section class='main' id='main'/>
+</body>
+ </html>
